@@ -1,5 +1,5 @@
-from nuke_lib import readFromWrite
-reload(readFromWrite)
+from nuke_lib import splitChannels
+reload(splitChannels)
 import nuke 
 
 def read_from_write():
