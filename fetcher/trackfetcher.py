@@ -1,13 +1,13 @@
 import os
 import nuke
-import nodeutils as nu
+from nuke_lib import nodeutils as nu
 import glob
 
 import logging
 
 # GUI
-import gui.customwins as customwins
-import fileSniffer as fs
+from nuke_lib import gui.customwins as customwins
+from nuke_lib import fileSniffer as fs
 import sgtk
 
 def fetch():
