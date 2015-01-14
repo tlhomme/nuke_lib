@@ -6,7 +6,7 @@ import glob
 import logging
 
 # GUI
-from nuke_lib import gui.customwins as customwins
+from nuke_lib.gui import customwins 
 from nuke_lib import fileSniffer as fs
 import sgtk
 
